@@ -1,0 +1,22 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	background-color: #000000;
+	margin:10px;
+	margin-bottom: 10px;
+	border-color: #12020;
+	border-radius: 10px; 
+}
+
+.content > button {
+	padding: 10px;
+	margin: 10px;
+	margin-left: 500px;
+	margin-right: 500px; 
+}
