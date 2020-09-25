@@ -1,0 +1,17 @@
+*{
+	background: rgb(0,0,0);
+}
+.content{
+	display: flex;
+	flex-direction: column;
+}
+
+.ball{
+	position: absolute;
+	background: rgb(11,40,255,1);
+	height: 70px;
+	width: 70px;
+	top:10px;
+	left:10px;
+	border-radius: 100px;
+}

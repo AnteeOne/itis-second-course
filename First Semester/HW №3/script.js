@@ -10,12 +10,6 @@ btns[2].onclick = function() {
   content.style.backgroundColor = 'blue';
 };
 btns[3].onclick = function() {
-  // content.style.backgroundColor = 'red';
-  // content.style.backgroundColor = 'orange';
-  // content.style.backgroundColor = 'yellow';
-  // content.style.backgroundColor = 'green';
-  // content.style.backgroundColor = 'blue';
-  // content.style.backgroundColor = 'purple';
   bg();
 };
 
