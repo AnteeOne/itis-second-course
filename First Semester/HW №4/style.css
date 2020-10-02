@@ -1,5 +1,5 @@
 *{
-	background: rgb(0,0,0);
+	background: rgb(1,1,1,1);
 }
 .content{
 	display: flex;
@@ -14,4 +14,9 @@
 	top:10px;
 	left:10px;
 	border-radius: 100px;
+}
+
+.ball img {
+	width: 70px;
+	height: 70px;
 }

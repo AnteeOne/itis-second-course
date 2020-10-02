@@ -9,7 +9,7 @@ var secondHeigth = 200;
 var x0 = 10;
 var y0 = 10;
 
-setInterval(screenSaver,30);
+setInterval(screenSaver,50);
 
 var x = 1;
 var y = 1;

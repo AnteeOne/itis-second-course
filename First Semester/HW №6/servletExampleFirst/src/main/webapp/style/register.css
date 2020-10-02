@@ -1,0 +1,101 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: rgba(0, 0, 0, 0.65);
+  display: flex;
+  flex-direction: row;
+  font-family: "Signika Negative", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Old Standard TT", serif;
+}
+
+.registration {
+  margin-left: 500px;
+  margin-top: 120px;
+}
+
+.registration form {
+  justify-content: center;
+  width: 220px;
+  height: 330px;
+  background-color: #000;
+  padding: 10px 0px 0px 4px;
+  border-radius: 15px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: bold;
+}
+.registration input,
+.registration select {
+  width: 195px;
+  height: 20px;
+  margin: 3px 0px 0px 10px;
+  border: 0px;
+  font-weight: bold;
+}
+.registration input:focus {
+  background-color: #ffa500;
+}
+.registration form label {
+  margin: 5px 0px 0px 15px;
+}
+
+a {
+  outline: none;
+}
+
+.register_button {
+  width: 149px;
+  height: 42px;
+  background-color: #ffa500;
+  border-radius: 10px;
+  margin:30px;
+  text-align: center;
+  cursor: pointer;
+  clear: both;
+}
+.register_button:hover {
+  background-color: white;
+  color: #ffa500;
+}
+.register_button span {
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 40px;
+}
+.register_button span a {
+  text-decoration: none;
+  color: white;
+}
+.register_button span a:hover {
+  background-color: white;
+  color: #ffa500;
+}
+
+span.error {
+  margin-right: 20px;
+  font-size: 9px;
+  color: #ffa500;
+  height: 10px;
+}
+
+p.error {
+  margin: 0px 14px 0px 10px;
+  font-size: 9px;
+  color: #ffa500;
+  height: 6px;
+  padding: 0px 0px 8px 0px;
+  text-align: right;
+  text-transform: none;
+}
