@@ -14,7 +14,7 @@ public class FileSerializer {
     }
 
     public void writeInCSV(){
-        String csv = "D:\\Projects\\Programming\\KFU\\itis_second_course\\First Semester\\HW №6\\servletExampleFirst\\src\\main\\java\\ru\\kpfu\\servlets\\data.csv";
+        final String csv = "D:\\Projects\\Programming\\KFU\\itis_second_course\\First Semester\\HW №6\\servletExampleFirst\\src\\main\\java\\ru\\kpfu\\servlets\\data.csv";
         try {
             CSVWriter writer = new CSVWriter(new FileWriter(csv, true));
             String[] record = (user.getEmail() + "," + user.getName() + "," + user.getPassword()).split(",");

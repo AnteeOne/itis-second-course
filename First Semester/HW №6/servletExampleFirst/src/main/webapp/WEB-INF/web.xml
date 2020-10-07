@@ -26,4 +26,14 @@
     <url-pattern>/register</url-pattern>
   </servlet-mapping>
 
+    <filter>
+        <filter-name>EdgeFilter</filter-name>
+        <filter-class>ru.kpfu.servlets.EdgeFilter</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>EdgeFilter</filter-name>
+        <servlet-name>register</servlet-name>
+    </filter-mapping>
+
 </web-app>

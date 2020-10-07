@@ -6,6 +6,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import javax.servlet.Filter;
 
 //@WebServlet("/register")
 public class RegistrationServlet extends HttpServlet {
@@ -33,10 +34,6 @@ public class RegistrationServlet extends HttpServlet {
         }
         resp.sendRedirect(req.getRequestURI());
 
-
-
-
-
-
     }
+
 }
