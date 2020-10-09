@@ -1,0 +1,10 @@
+<taglib>
+    <tlib-version>1.0</tlib-version>
+    <jsp-version>2.0</jsp-version>
+    <short-name>Warning TLD</short-name>
+    <tag>
+        <name>wrn</name>
+        <tag-class>ru.kpfu.servlets.WarningTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+</taglib>

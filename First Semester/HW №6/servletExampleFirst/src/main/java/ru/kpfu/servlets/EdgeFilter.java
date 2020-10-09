@@ -3,6 +3,7 @@ package ru.kpfu.servlets;
 import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.regex.Pattern;
 
 public class EdgeFilter implements Filter {
@@ -28,6 +29,11 @@ public class EdgeFilter implements Filter {
         }
         else{
             //TODO: create logic for non-edge browser
+            PrintWriter printWriter = servletResponse.getWriter();
+            printWriter.println("Sorry,your browser doesn't support this page :(");
+            printWriter.flush();
+            printWriter.close();
+
         }
 
 
