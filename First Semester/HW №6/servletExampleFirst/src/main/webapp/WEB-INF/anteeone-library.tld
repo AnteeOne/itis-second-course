@@ -7,4 +7,9 @@
         <tag-class>ru.kpfu.servlets.WarningTag</tag-class>
         <body-content>empty</body-content>
     </tag>
+    <tag>
+        <name>form</name>
+        <tag-class>ru.kpfu.servlets.FormTag</tag-class>
+        <body-content>tagdependent</body-content>
+    </tag>
 </taglib>

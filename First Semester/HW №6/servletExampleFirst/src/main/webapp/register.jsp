@@ -1,4 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="aol" uri="/WEB-INF/anteeone-library.tld"%>
 <html>
 <head>
     <title>Reg</title>
@@ -27,7 +28,7 @@
             </label>
 
 
-            <button type="submit" class="register_button">Register</button>
+            <aol:form/>
         </form>
     </section>
 </body>
