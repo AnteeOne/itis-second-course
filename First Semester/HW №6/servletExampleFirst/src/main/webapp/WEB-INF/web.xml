@@ -16,6 +16,13 @@
     <servlet-class>ru.kpfu.servlets.RegistrationServlet</servlet-class>
   </servlet>
 
+  <servlet>
+      <servlet-name>profile</servlet-name>
+      <servlet-class>ru.kpfu.servlets.ProfileServlet</servlet-class>
+  </servlet>
+
+
+
   <servlet-mapping>
    <servlet-name>index</servlet-name>
    <url-pattern>/index</url-pattern>
@@ -25,6 +32,11 @@
     <servlet-name>register</servlet-name>
     <url-pattern>/register</url-pattern>
   </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>profile</servlet-name>
+        <url-pattern>/profile</url-pattern>
+    </servlet-mapping>
 
     <filter>
         <filter-name>EdgeFilter</filter-name>

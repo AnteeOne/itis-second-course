@@ -33,8 +33,19 @@ body {
 	height: 25px;
 }
 
+.burger-button {
+	display: none;
+	position: absolute;
+	right: 5px;
+	background: rgba(205, 0, 116, 0.5);
+	width: 30px;
+	height: 30px;
+	margin: 10px;
 
-.navbar ul {
+}
+
+
+.navbar ul {	
   list-style-type: none;
   margin: 20px;
   padding: 5px;
@@ -44,7 +55,8 @@ body {
   position: absolute;
   height: 100%;
   overflow: auto;
-  border-radius: 30px
+  border-radius: 30px;
+  display: all;
 }
 
 .navbar li a {
@@ -115,4 +127,15 @@ body {
 	text-align: center;
 	margin-top: 10%;
 
+}
+
+@media (max-width: 600px) {
+  
+  .navbar ul{
+  	display: none;
+  }
+
+  .burger-button {
+  	display: flex;
+  }
 }
