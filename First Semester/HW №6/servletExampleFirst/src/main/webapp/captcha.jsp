@@ -1,19 +1,18 @@
 <%--
   Created by IntelliJ IDEA.
   User: Azat
-  Date: 01.10.2020
-  Time: 14:17
+  Date: 20.10.2020
+  Time: 21:51
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ taglib prefix="aol" uri="/WEB-INF/anteeone-library.tld"%>
 <html>
 <head>
-    <title>Index</title>
+    <title>Title</title>
 </head>
 <body>
-<img src="${pageContext.request.contextPath}/captcha" alt="placeholder">
-<aol:wrn/>
-<aol:form/>
+<div>
+    <img src="${pageContext.request.contextPath}/captcha-servlet" alt="placeholder">
+</div>
 </body>
 </html>

@@ -23,7 +23,8 @@ public class RegistrationServlet extends HttpServlet {
         String password = req.getParameter("password");
         String password2 = req.getParameter("password2");
         String isAgree = req.getParameter("agreement");
-
+        req.getSession().setAttribute("name",name);
+        req.getSession().setAttribute("email",email);
         RegistrationValidator validator = new RegistrationValidator(name,email,password,password2,isAgree);
 
         if(validator.isValidate()){

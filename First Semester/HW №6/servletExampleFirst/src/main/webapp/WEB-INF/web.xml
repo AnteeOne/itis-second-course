@@ -21,7 +21,15 @@
       <servlet-class>ru.kpfu.servlets.ProfileServlet</servlet-class>
   </servlet>
 
+  <servlet>
+      <servlet-name>captcha</servlet-name>
+      <servlet-class>ru.kpfu.servlets.CaptchaServlet</servlet-class>
+  </servlet>
 
+    <servlet-mapping>
+        <servlet-name>captcha</servlet-name>
+        <url-pattern>/captcha</url-pattern>
+    </servlet-mapping>
 
   <servlet-mapping>
    <servlet-name>index</servlet-name>
