@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.web.WebView?>
+
+<VBox nodeOrientation="LEFT_TO_RIGHT" prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="WebController">
+  <children>
+      <HBox prefHeight="45.0" prefWidth="639.0" spacing="5.0">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+            </Lighting>
+         </effect>
+         <children>
+            <Button fx:id="onPreviousButton" mnemonicParsing="false" text="&lt;--" onAction="#onPrevious">
+               <effect>
+                  <Blend />
+               </effect>
+            </Button>
+            <Button fx:id="onNextButton" mnemonicParsing="false" text="--&gt;" onAction="#onNext" />
+            <TextField fx:id="addressBar" prefHeight="26.0" prefWidth="461.0" />
+            <Button mnemonicParsing="false" text="Go" onAction="#onGo" />
+         </children>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </HBox>
+      <WebView fx:id="webView" prefHeight="331.0" prefWidth="640.0" />
+      <Text fx:id="statusBar" strokeType="OUTSIDE" strokeWidth="0.0" text="" wrappingWidth="637.983081817627" />
+  </children>
+   <effect>
+      <DropShadow />
+   </effect>
+</VBox>
