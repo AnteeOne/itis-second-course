@@ -10,6 +10,6 @@ This repo for hs itis second course classworks and homeworks :)
 - ДЗ 14 [Лежит в класруме]
 - ДЗ 16 https://github.com/AnteeOne/itis_second_course/blob/master/First%20Semester/HW%20№9/src/main/java/Window.java
 - ДЗ 17 https://github.com/AnteeOne/itis_second_course/blob/master/First%20Semester/HW%20№9/src/main/java/Window.java 
-- ДЗ 18
+- ДЗ 18 https://github.com/AnteeOne/itis_second_course/tree/master/First%20Semester/HW%20№10%20(18)
 
 ![html meme](https://sun9-73.userapi.com/c852028/v852028466/fb087/sQABCyjM9EY.jpg)
