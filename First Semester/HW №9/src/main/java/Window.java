@@ -83,7 +83,7 @@ public class Window {
 
     private void initRightPanel() {
         JPanel rightPanel = new JPanel();
-        GridLayout gridLayout = new GridLayout(10, 0, 20, 20);
+        GridLayout gridLayout = new GridLayout(10, 0, 200, 10);
         rightPanel.setLayout(gridLayout);
         JButton drawButton1 = new JButton("Дети Rave");
         JButton drawButton2 = new JButton("Дети Rave");
@@ -102,7 +102,7 @@ public class Window {
         rightPanel.add(drawButton7);
         rightPanel.add(drawButton8);
         rightPanel.setBackground(Color.pink);
-        Dimension dim = new Dimension(250, 250);
+        Dimension dim = new Dimension(300, 300);
         rightPanel.setPreferredSize(dim);
         frame.getContentPane().add(rightPanel, BorderLayout.EAST);
     }
